@@ -1,7 +1,7 @@
 # 自动刷新订阅 —— 由手机定时任务生成
-# 生成时间: 2026-11-18 11:10:35
+# 生成时间: 2026-11-18 13:17:04
 # 测速方式: mihomo 真实 HTTP 延迟（5s 超时，阈值 3500ms）
-# 可用节点: 35 个
+# 可用节点: 15 个
 
 mixed-port: 7890
 allow-lan: false
@@ -11,41 +11,21 @@ geodata-mode: false
 geo-auto-update: false
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇦🇱 AL_16, server: 196.196.148.85, port: 443, type: vless, uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839, tls: true, reality-opts: {public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs, short-id: "361d0dd59c70516f" }, servername: 5d0319t.nl7.h1clayd.click, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇦🇱 AL_17, server: 196.245.52.183, port: 443, type: vless, uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839, tls: true, reality-opts: {public-key: zbz--PMjcIC4Ggr3j-ibDf0fzXRTj0lM_HzjPJyMkVE, short-id: "50a749f0eccb628c" }, servername: 15b171g.nl7.h1clayd.click, client-fingerprint: firefox, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: 5b79e8a94241}, udp: true}
-  - {name: 🇧🇬 保加利亚 | BGR, server: plaindune.com, port: 8443, type: vless, uuid: 37af0181-5598-4aad-a040-d926bcb65757, tls: true, servername: plaindune.com, client-fingerprint: firefox, network: xhttp, xhttp-opts: {path: /api/v1/upload, host: plaindune.com, mode: auto}, udp: true}
-  - {name: 🇧🇷 巴西 | BRA, server: platform102.golnamakcert.top, port: 80, type: vless, uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4, tls: false, network: ws, ws-opts: {path: /platform102, headers: {Host: platform102.halalkhor.info}}, udp: true}
-  - {name: 🇧🇷 巴西 | BRA 2, server: platform103.golnamakcert.top, port: 80, type: vless, uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4, tls: false, network: ws, ws-opts: {path: /platform103, headers: {Host: platform103.halalkhor.info}}, udp: true}
-  - {name: 🇨🇭 瑞士 | CHE, server: 179.43.140.24, port: 42831, type: vmess, uuid: a925a98c-ad7a-40c6-9fdf-130a1de69416, alterId: 0, cipher: auto, tls: false, alpn: [""], skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/3x], headers: {Host: [down-cdn.dingtalk.com]}}, udp: true}
-  - {name: 🇨🇿 捷克 | CZE, server: czechia.richforever.ru, port: 443, type: vless, uuid: 3dbd9377-43cc-46c3-b32c-2605908024eb, tls: true, reality-opts: {public-key: PA1xWXjxZLn68I-6cjWVdqc0dYhWbu9W5c1GpjEOZgE, short-id: "8a9442353eebbe0f" }, servername: czechia.richforever.ru, client-fingerprint: firefox, network: xhttp, xhttp-opts: {path: /49b9f446, host: czechia.richforever.ru, mode: auto, x-padding-bytes: 100-300}, udp: true}
   - {name: 🇨🇿 捷克 | CZE 2, server: 103.118.211.38, port: 443, type: vless, uuid: 3dbd9377-43cc-46c3-b32c-2605908024eb, tls: true, reality-opts: {public-key: PA1xWXjxZLn68I-6cjWVdqc0dYhWbu9W5c1GpjEOZgE, short-id: "8a9442353eebbe0f" }, servername: czechia.richforever.ru, client-fingerprint: firefox, network: xhttp, xhttp-opts: {path: /49b9f446, host: czechia.richforever.ru, mode: auto, x-padding-bytes: 100-300}, udp: true}
+  - {name: 🇩🇪 德国 | DEU, server: 48.103.120.7, port: 443, type: vless, uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c, tls: true, reality-opts: {public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ, short-id: "868419504747f6de" }, servername: svc-net-ctl.galioncc.com, client-fingerprint: firefox, network: tcp, udp: true}
   - {name: 🇩🇪 德国 | DEU 3, server: 130.78.31.25, port: 443, type: vless, uuid: 146d567c-6335-4e63-a8aa-7ec068642440, tls: true, reality-opts: {public-key: fDrDDz_GCqhDgG8kMxWXk2vRuyfBHTTNwVa7k7nJHgw, short-id: "5c42ed8c" }, servername: pl2.obxodvpn.us, client-fingerprint: firefox, network: xhttp, xhttp-opts: {path: /xhttp, host: pl2.obxodvpn.us, mode: packet-up}, udp: true}
-  - {name: 🇩🇪 德国 | DEU 7, server: 46.8.64.51, port: 443, type: vless, uuid: 80a06811-f74b-4b82-ac99-7e66c2a98e1c, tls: true, alpn: [http/1.1], servername: clover.filnex.baby, client-fingerprint: firefox, network: ws, ws-opts: {path: /api/de6/stream, headers: {Host: clover.filnex.baby}}, udp: true}
-  - {name: 🇩🇪 德国 | DEU 8, server: app.streamru14.net, port: 443, type: vless, uuid: fd90e601-a56c-42b8-aab7-aa02d26fcb04, tls: true, flow: xtls-rprx-vision, servername: app.streamru14.net, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: 🇩🇪 德国 | DEU 9, server: 130.61.145.251, port: 59924, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: uou5NTq+xna9PBIG+8jtSSyQ6idxiXZgeK+Uw52qopY=, udp: true}
+  - {name: 🇩🇪 德国 | DEU 4, server: 5.129.196.78, port: 443, type: vless, uuid: d651c9ab-b844-4420-b3d0-20d201ef5f55, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: 95EyUgsp_C-OrWKVsULHhFyY-tVYA3kMCZHIjIjjJhc, short-id: "5ea969574fc3c06e" }, servername: node-de-3.nztpro.com, client-fingerprint: firefox, network: tcp, udp: true}
   - {name: 🇩🇪 德国 | DEU 11, server: 217.60.94.115, port: 443, type: vless, uuid: a346c521-7a7f-452b-9356-a4893feb5982, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0}, servername: de13-r.bankai.party, client-fingerprint: firefox, network: tcp, udp: true}
   - {name: 🇩🇪 德国 | DEU 13, server: 8.211.57.86, port: 443, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=, udp: true}
-  - {name: 🇫🇷 法国 | FRA, server: 62.210.70.191, port: 24667, type: hysteria, auth_str: dongtaiwang.com, auth-str: dongtaiwang.com, up: 10, down: 50, skip-cert-verify: true, alpn: [h3]}
+  - {name: 🇬🇧 英国 | GBR, server: 13.143.239.148, port: 25090, type: vless, uuid: f3a227cb-8a8b-4ccb-b613-9143c4a1346c, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: 7G4Jpyi1yaMHx6mhqxcoF2DgpWrfGJl714sWzSRK_Ws, short-id: "c02d36577fecf7ca" }, servername: dbb72fr.fi20.h1clayd.shop, client-fingerprint: firefox, network: tcp, udp: true}
   - {name: 🇮🇹 意大利 | ITA, server: 202.50.253.90, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
   - {name: 🇮🇹 意大利 | ITA 2, server: 202.50.253.99, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
   - {name: 🇮🇹 意大利 | ITA 3, server: 202.50.253.45, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
   - {name: 🇮🇹 意大利 | ITA 4, server: 202.50.253.27, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: 🇮🇹 意大利 | ITA 5, server: 202.50.253.63, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
   - {name: 🇮🇹 意大利 | ITA 6, server: 202.50.253.72, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: 🇳🇬 尼日利亚 | NGA, server: sclass-01.catcat321.com, port: 20103, type: trojan, password: d7563108-615c-4338-a7bd-77f359869a4a, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
   - {name: 🇳🇱 荷兰 | NLD, server: 144.21.35.158, port: 45819, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: rx1e8SsjGM7ZKlR0tLnzSWoxhyRRJJrcTccM3uMu+Rc=, udp: true}
-  - {name: 🇳🇱 荷兰 | NLD 3, server: 185.14.29.29, port: 443, type: vless, uuid: 6b1607f1-3a08-4681-8abd-83663a8155e7, tls: true, reality-opts: {public-key: bPxKgZHO13GJGKjbHz0BVnsw8UIcOjz2yz8VCgGv5BI, short-id: "6fce2d08" }, servername: static.gcore.pro, client-fingerprint: chrome, network: xhttp, xhttp-opts: {path: /js/libs, host: static.gcore.pro, mode: auto}, udp: true}
-  - {name: 🇳🇱 荷兰 | NLD 5, server: 136.148.208.221, port: 443, type: vless, uuid: 4201786b-d99b-4147-a5f0-20d47acddb81, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA, short-id: "8d0d0679f42ffd98" }, servername: 8a2e72t.nl20.h1clayd.shop, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇳🇱 荷兰 | NLD 6, server: 201.34.142.108, port: 443, type: vless, uuid: 4777d90d-265b-4927-a0d1-63f36ed1421c, tls: true, client-fingerprint: chrome, network: xhttp, xhttp-opts: {path: /assets/nlrelay01/, mode: auto}, udp: true}
-  - {name: 🇳🇱 荷兰 | NLD 7, server: 196.196.148.76, port: 443, type: vless, uuid: 4201786b-d99b-4147-a5f0-20d47acddb81, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA, short-id: "8d0d0679f42ffd98" }, servername: 8a2e72t.nl20.h1clayd.shop, client-fingerprint: firefox, network: tcp, udp: true}
   - {name: 🇵🇱 波兰 | POL 2, server: 80.47.10.106, port: 443, type: vless, uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c, tls: true, reality-opts: {public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ, short-id: "a7c92e4b10d6f835" }, servername: pl8.galioncc.com, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: 🇸🇪 瑞典 | SWE, server: 88.216.214.159, port: 443, type: vless, uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c, tls: true, reality-opts: {public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ, short-id: "a7c92e4b10d6f835" }, servername: api-svc-mgr.galioncc.com, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: 🇸🇬 新加坡 | SGP, server: free.fugui.lol, port: 51283, type: vless, uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ, short-id: "fa514b83" }, servername: swdist.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇹🇼 🇨🇳 台湾 | TWN, server: free.fugui.lol, port: 47396, type: vless, uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ, short-id: "fa514b83" }, servername: swdist.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 美国 | USA, server: 192.74.236.148, port: 30004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1733477783705, headers: {Host: www.91334565.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 | USA 3, server: perplexity.com, port: 443, type: vless, uuid: f7a9b27c-fd3c-4177-9f66-8be4dd726d0b, tls: true, alpn: [http/1.1], flow: xtls-rprx-vision, encryption: mlkem768x25519plus.native.0rtt.mLmHDPUnU0D6bnHJIDCDZ5RlsZC9LI3QaHSVlL8F0Fs, servername: rainman.exploring.cyou, client-fingerprint: unsafe, network: ws, ws-opts: {path: /t.me-SubGift, headers: {Host: rainman.exploring.cyou}}, udp: true}
   - {name: 🇺🇸 美国 | USA 6, server: US122207.ssgreen.org, port: 443, type: vmess, uuid: 74d216a3-fdb8-4774-a9c3-35f9e5a46819, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wes, headers: {Host: US122207.ssgreen.org}}, udp: true}
-  - {name: 🇻🇳 越南 | VNM, server: kir4.crackerbinam.org, port: 25272, type: vless, uuid: f592a058-bfb6-447e-b849-fd169b65b301, tls: true, reality-opts: {public-key: G5fbtso9OktJfpHqg7demmUt8zfjnnEAL_QDRqvOzEU, short-id: "f3a10622fe" }, servername: www.cloudflare.com, client-fingerprint: chrome, network: http, http-opts: {method: GET, path: [/], headers: {Host: [www.cloudflare.com]}}, udp: true}
 proxy-groups:
   - name: 🚀 自动选择
     type: url-test
@@ -53,79 +33,39 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇦🇱 AL_16
-      - 🇦🇱 AL_17
-      - 🇧🇬 保加利亚 | BGR
-      - 🇧🇷 巴西 | BRA
-      - 🇧🇷 巴西 | BRA 2
-      - 🇨🇭 瑞士 | CHE
-      - 🇨🇿 捷克 | CZE
       - 🇨🇿 捷克 | CZE 2
+      - 🇩🇪 德国 | DEU
       - 🇩🇪 德国 | DEU 3
-      - 🇩🇪 德国 | DEU 7
-      - 🇩🇪 德国 | DEU 8
-      - 🇩🇪 德国 | DEU 9
+      - 🇩🇪 德国 | DEU 4
       - 🇩🇪 德国 | DEU 11
       - 🇩🇪 德国 | DEU 13
-      - 🇫🇷 法国 | FRA
+      - 🇬🇧 英国 | GBR
       - 🇮🇹 意大利 | ITA
       - 🇮🇹 意大利 | ITA 2
       - 🇮🇹 意大利 | ITA 3
       - 🇮🇹 意大利 | ITA 4
-      - 🇮🇹 意大利 | ITA 5
       - 🇮🇹 意大利 | ITA 6
-      - 🇳🇬 尼日利亚 | NGA
       - 🇳🇱 荷兰 | NLD
-      - 🇳🇱 荷兰 | NLD 3
-      - 🇳🇱 荷兰 | NLD 5
-      - 🇳🇱 荷兰 | NLD 6
-      - 🇳🇱 荷兰 | NLD 7
       - 🇵🇱 波兰 | POL 2
-      - 🇸🇪 瑞典 | SWE
-      - 🇸🇬 新加坡 | SGP
-      - 🇹🇼 🇨🇳 台湾 | TWN
-      - 🇺🇸 美国 | USA
-      - 🇺🇸 美国 | USA 3
       - 🇺🇸 美国 | USA 6
-      - 🇻🇳 越南 | VNM
   - name: 🔯 手动选择
     type: select
     proxies:
-      - 🇦🇱 AL_16
-      - 🇦🇱 AL_17
-      - 🇧🇬 保加利亚 | BGR
-      - 🇧🇷 巴西 | BRA
-      - 🇧🇷 巴西 | BRA 2
-      - 🇨🇭 瑞士 | CHE
-      - 🇨🇿 捷克 | CZE
       - 🇨🇿 捷克 | CZE 2
+      - 🇩🇪 德国 | DEU
       - 🇩🇪 德国 | DEU 3
-      - 🇩🇪 德国 | DEU 7
-      - 🇩🇪 德国 | DEU 8
-      - 🇩🇪 德国 | DEU 9
+      - 🇩🇪 德国 | DEU 4
       - 🇩🇪 德国 | DEU 11
       - 🇩🇪 德国 | DEU 13
-      - 🇫🇷 法国 | FRA
+      - 🇬🇧 英国 | GBR
       - 🇮🇹 意大利 | ITA
       - 🇮🇹 意大利 | ITA 2
       - 🇮🇹 意大利 | ITA 3
       - 🇮🇹 意大利 | ITA 4
-      - 🇮🇹 意大利 | ITA 5
       - 🇮🇹 意大利 | ITA 6
-      - 🇳🇬 尼日利亚 | NGA
       - 🇳🇱 荷兰 | NLD
-      - 🇳🇱 荷兰 | NLD 3
-      - 🇳🇱 荷兰 | NLD 5
-      - 🇳🇱 荷兰 | NLD 6
-      - 🇳🇱 荷兰 | NLD 7
       - 🇵🇱 波兰 | POL 2
-      - 🇸🇪 瑞典 | SWE
-      - 🇸🇬 新加坡 | SGP
-      - 🇹🇼 🇨🇳 台湾 | TWN
-      - 🇺🇸 美国 | USA
-      - 🇺🇸 美国 | USA 3
       - 🇺🇸 美国 | USA 6
-      - 🇻🇳 越南 | VNM
 rules:
   - DOMAIN-SUFFIX,cn,DIRECT
   - GEOIP,CN,DIRECT
